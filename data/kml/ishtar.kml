@@ -34,10 +34,10 @@
 	</StyleMap>
 	<Placemark>
 		<name>イシュタル門</name>
-		<description>バビロンの北域に位置する、8番目の門。
+		<description><![CDATA[<img style="max-width:500px;" src="file:///Users/Hikaru/Desktop/お絵描き/2017/uploaded3.png">バビロンの北域に位置する、8番目の門。
 紀元前575年、新バビロニアのネブカドネザル2世により建設された。
 青い釉薬瓦で、バビロンの女神イシュタルと共に、
-ムシュフシュ、オーロックスの浅浮き彫りなどが描かれている。</description>
+ムシュフシュ、オーロックスの浅浮き彫りなどが描かれている。]]></description>
 		<LookAt>
 			<gx:TimeStamp><when>2015</when>
 </gx:TimeStamp>
