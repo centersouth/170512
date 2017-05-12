@@ -64,7 +64,7 @@
 		<a href="https://www.openstreetmap.org/copyright" target="_blank">MapData: © OpenStreetMap contributors</a>
 	</div>
 	<script>
-		// ========== 初期化 ========== 
+		// ========== 初期化 ==========
 
 		//スマホで閲覧した際に，スワイプによるスクロールを禁止
 
@@ -90,7 +90,7 @@
 			$(svNotAvailable).hide();
 		});
 
-		// ========== ビューア初期化 ========== 
+		// ========== ビューア初期化 ==========
 
 		var viewer = new Cesium.Viewer('cesiumContainer', {
 			imageryProvider: new Cesium.ArcGisMapServerImageryProvider({
@@ -130,7 +130,7 @@
 		fog.density = 0.0005;
 		fog.screenSpaceErrorFactor = 100.0;
 
-		// ========== 視点関連 ========== 
+		// ========== 視点関連 ==========
 
 		//視点配列を作成
 
@@ -148,7 +148,7 @@
 		//視点を登録：　緯度，経度，注視点の高さ，傾き，視点の高さ
 
 		viewPointsArray[0] = new viewPoints("首都大", 35.661, 139.3657347, 0, -45, 1000);
-		viewPointsArray[1] = new viewPoints("日野市", 35.654, 139.394, 0, -89, 15000);
+		viewPointsArray[1] = new viewPoints("日野市", 35.654, 139.394, 0, -50, 15000);
 		viewPointsArray[2] = new viewPoints("初期視点", 35.654, 139.394, 0, -35, 5000);
 
 		//視点メニューを作成
@@ -195,7 +195,7 @@
 			navigator.geolocation.getCurrentPosition(fly);
 		}
 
-		// ========== 以降，起動シークエンス ========== 
+		// ========== 以降，起動シークエンス ==========
 
 		//クレジットを隠す
 
@@ -222,7 +222,7 @@
 			setTimeout('loadKml()', 3000);
 		}
 
-		// ========== KMLをロード ========== 
+		// ========== KMLをロード ==========
 
 		//KML配列を作成
 
@@ -272,7 +272,7 @@
 			}, 200);
 		}
 
-		// ========== 地図オーバレイを作成 ========== 
+		// ========== 地図オーバレイを作成 ==========
 
 		// オーバレイ配列
 
@@ -314,7 +314,7 @@
 			overlayListMenu.innerHTML = overlayList;
 		}
 
-		//オーバレイの透明度を変更 
+		//オーバレイの透明度を変更
 
 		function transParent(layer) {
 			var id = overlayDataArray[layer].id;
@@ -358,7 +358,7 @@
 			);
 		}
 
-		// ========== ダブルクリックでストビューを表示 ========== 
+		// ========== ダブルクリックでストビューを表示 ==========
 
 		//移動前のカメラ位置格納オブジェクト
 
@@ -422,13 +422,13 @@
 			}, Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
 		}
 
-		// ========== ヘルプへリンク ========== 
+		// ========== ヘルプへリンク ==========
 
 		function help() {
 			window.open('https://github.com/wtnv-lab/cesiumGitHubPages');
 		}
 
-		// ========== 各種DIVのフェードイン・アウト ========== 
+		// ========== 各種DIVのフェードイン・アウト ==========
 
 		function fadeInOut(layer, param) {
 			if (param == 0) {
