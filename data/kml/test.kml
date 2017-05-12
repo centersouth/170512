@@ -36,7 +36,12 @@
 	</Style>
 	<Placemark>
 		<name>イシュタル門</name>
-		<description>8番目の門。</description>
+		<description>8番目の門。　<br>
+			紀元前575年、新バビロニアのネブカドネザル2世により建設された。<br>
+			青い釉薬瓦で、バビロンの女神イシュタルと共に、<br>
+			ムシュフシュ、オーロックスの浅浮き彫り（en）などが描かれている。<br>
+			<href>images/ishtar.png</href>
+		</description>
 		<LookAt>
 			<gx:TimeStamp><when>2015</when>
 </gx:TimeStamp>
