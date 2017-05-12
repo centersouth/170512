@@ -149,9 +149,9 @@
 
 		//視点を登録：　緯度，経度，注視点の高さ，傾き，視点の高さ
 
-		viewPointsArray[0] = new viewPoints("イシュタル門",  32.54, 44.42, 0, -45, 1000);
-		viewPointsArray[1] = new viewPoints("イラク上空", 32.32, 44.25, 0, -35, 15000);
-		viewPointsArray[2] = new viewPoints("イシュタル門上空", 32.32, 44.25, 0, -89, 5000);
+		viewPointsArray[0] = new viewPoints("イシュタル門",  32.54220266758481, 44.42091909931321, 0, -45, 500);
+		viewPointsArray[1] = new viewPoints("イラク上空", 32.54220266758481, 44.42091909931321, 0, -35, 15000);
+		viewPointsArray[2] = new viewPoints("イシュタル門上空", 32.54220266758481, 44.42091909931321, 0, -89, 5000);
 		//視点メニューを作成
 
 		var viewPointChangeMenu = document.getElementById('slideMenuViewPoint');
@@ -236,7 +236,7 @@
 		//KMLデータを登録．kmzでもOK
 		kmlDataArray[0] = new kmlData("避難所", 'data/kml/hinanjo.kml');
 		kmlDataArray[1] = new kmlData("避難場所", 'data/kml/hinanbasyo.kml');
-		kmlDataArray[2] = new kmlData("イシュタル", 'data/kml/ishtal.kml');
+		kmlDataArray[2] = new kmlData("イシュタル", 'data/kml/test.kml');
 		//時間情報入りのKML
 		//kmlDataArray[2] = new kmlData("タイムスパン", 'data/kml/timeSpans.kml');
 
