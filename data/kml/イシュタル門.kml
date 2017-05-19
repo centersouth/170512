@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>ishtar.kml</name>
+	<name>イシュタル門.kml</name>
 	<Style id="sh_ishtar">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -34,8 +34,9 @@
 	</StyleMap>
 	<Placemark>
 		<name>イシュタル門</name>
-		<description><![CDATA[<img style="max-width:500px;" src="file:///Applications/MAMP/htdocs/170512/data/kml/images/uploaded3.png">バビロンの北域に位置する、8番目の門。<br>
-紀元前575年、新バビロニアのネブカドネザル2世により建設された。<br>青い釉薬瓦で、バビロンの女神イシュタルと共に、
+		<description><![CDATA[<img style="max-width:500px;" src="file:///Applications/MAMP/htdocs/170512/data/kml/images/uploaded3.png">バビロンの北域に位置する、8番目の門。
+紀元前575年、新バビロニアのネブカドネザル2世により建設された。
+青い釉薬瓦で、バビロンの女神イシュタルと共に、
 ムシュフシュ、オーロックスの浅浮き彫りなどが描かれている。]]></description>
 		<LookAt>
 			<gx:TimeStamp><when>2015</when>
