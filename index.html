@@ -149,9 +149,9 @@
 
 		//視点を登録：　緯度，経度，注視点の高さ，傾き，視点の高さ
 
-		viewPointsArray[0] = new viewPoints("上空",  32.54220266758481, 44.42091909931321, 0, -45, 500);
-		viewPointsArray[1] = new viewPoints("上空", 32.54220266758481, 44.42091909931321, 0, -35, 20000);
-		viewPointsArray[2] = new viewPoints("ウルク上空", 31.9535345491714, 45.74517955255153, 0, -65, 15000);
+		viewPointsArray[0] = new viewPoints("上空",  31.54220266758481, 48.42091909931321, 0, -45, 1000000);
+		viewPointsArray[1] = new viewPoints("上空", 29.54220266758481, 47.42091909931321, 0, -35, 1000000);
+		viewPointsArray[2] = new viewPoints("ウルク上空", 30.5435345491714, 46.82517955255153, 0, -65, 1000000);
 		//視点メニューを作成
 
 		var viewPointChangeMenu = document.getElementById('slideMenuViewPoint');
@@ -238,6 +238,7 @@
 		kmlDataArray[1] = new kmlData("避難場所", 'data/kml/hinanbasyo.kml');
 		kmlDataArray[2] = new kmlData("イシュタル門", 'data/kml/ishtar.kml');
 		kmlDataArray[3] = new kmlData("エリドゥ", 'data/kml/eridu.kml');
+		kmlDataArray[4] = new kmlData("チグリス川", 'data/kml/tigrisriver.kml');
 		//時間情報入りのKML
 		//kmlDataArray[2] = new kmlData("タイムスパン", 'data/kml/timeSpans.kml');
 
