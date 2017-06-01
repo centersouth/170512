@@ -34,11 +34,22 @@
 		<img class="loading" src="data/loading.gif">
 	</div>
 	<div id="cesiumContainer"></div>
+
 	<div id="buttonViewPoint" class="general-button">
 		<div class="button-content">
 			<span class="icon-font">menu</span>
 		</div>
 	</div>
+
+	//追加部分
+	<div id="buttonStoryImage">
+		<input type="button" value="相関図"onclick="(function(){var e=document.getElementById(‘buttonStoryImage’);e.style.buttonStoryImage=’block’})()"/>
+<div id="print" style="buttonStoryImage:none">
+<img src="data/kml/images/eridu.png"/>
+</div>
+	</div>
+
+
 	<div id="buttonHelp" class="general-button" onclick="help();">
 		<div class="button-content">
 			<span class="icon-font">help</span>
@@ -101,10 +112,10 @@
 			navigationInstructionsInitiallyVisible: false,
 			geocoder: false,
 			//時間を使うときは以下の二行をコメントアウト
-			/*
+
 			timeline: false,
 			animation: false,
-			*/
+
 			sceneModePicker: false,
 			baseLayerPicker: false,
 			scene3DOnly: true,
@@ -149,8 +160,8 @@
 
 		//視点を登録：　緯度，経度，注視点の高さ，傾き，視点の高さ
 
-		viewPointsArray[0] = new viewPoints("上空",  31.54220266758481, 48.42091909931321, 0, -45, 1000000);
-		viewPointsArray[1] = new viewPoints("上空", 29.54220266758481, 47.42091909931321, 0, -35, 1000000);
+		viewPointsArray[0] = new viewPoints("初期視点1",  31.54220266758481, 48.42091909931321, 0, -45, 1000000);
+		viewPointsArray[1] = new viewPoints("初期視点2", 29.54220266758481, 47.42091909931321, 0, -35, 1000000);
 		viewPointsArray[2] = new viewPoints("ウルク上空", 30.5435345491714, 46.82517955255153, 0, -65, 1000000);
 		//視点メニューを作成
 

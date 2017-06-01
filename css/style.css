@@ -91,6 +91,13 @@ button.cesium-infoBox-close {
     z-index: 10005;
 }
 
+#buttonStoryImage {
+    position: absolute;
+    top: 200px;
+    left: 8px;
+    z-index: 10005;
+}
+
 #buttonHelp {
     position: absolute;
     top: 8px;
