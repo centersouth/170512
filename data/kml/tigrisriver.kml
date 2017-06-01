@@ -22,7 +22,7 @@
 		</IconStyle>
 		<LineStyle>
 			<color>ff88c81a</color>
-			<width>6</width>
+			<width>3</width>
 		</LineStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin">
@@ -34,8 +34,8 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff88c81a</color>
-			<width>6</width>
+			<color>afeeee1a</color>
+			<width>4</width>
 		</LineStyle>
 	</Style>
 	<Placemark>

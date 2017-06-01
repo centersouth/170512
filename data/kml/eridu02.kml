@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>eridu02.kml</name>
+	<StyleMap id="msn_book-01new">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_book-01new</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_book-01new</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_book-01new">
+		<IconStyle>
+			<scale>1.89091</scale>
+			<Icon>
+				<href>images/book-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_book-01new">
+		<IconStyle>
+			<scale>1.6</scale>
+			<Icon>
+				<href>images/book-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>エリドゥ</name>
+		<open>1</open>
+		<description>□ギルガメシュ叙事詩との関連
+
+光を司り、深淵の水神エアの信仰地。人間を作った全知全能の男神。ギルガメシュの守護神。エンリルとは対照的で人に友好的。</description>
+		<LookAt>
+			<longitude>46.44709717564221</longitude>
+			<latitude>30.96338071178232</latitude>
+			<altitude>0</altitude>
+			<heading>-0.5313833836022612</heading>
+			<tilt>0</tilt>
+			<range>137715.0622719217</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_book-01new</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>46.07783557452917,30.87872601334098,25000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

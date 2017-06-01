@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>kishu.kml</name>
+	<Style id="sn_uru-01new">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>images/uru-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_uru-01new">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>images/uru-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_uru-01new">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_uru-01new</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_uru-01new</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>キシュ</name>
+		<LookAt>
+			<longitude>47.34775345767546</longitude>
+			<latitude>32.16410781380919</latitude>
+			<altitude>0</altitude>
+			<heading>-13.05057345624268</heading>
+			<tilt>3.816812546497006</tilt>
+			<range>913308.4244457685</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_uru-01new</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>44.66494995225969,32.50496255614373,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

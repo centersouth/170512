@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>etemenniguru.kml</name>
+	<Style id="sh_uru-01new">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>images/uru-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_uru-01new">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>images/uru-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_uru-01new">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_uru-01new</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_uru-01new</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>エ・テメン・ニグル(ウルのジッグラト)</name>
+		<description>□時代：ウル第三王朝(紀元前22~21世紀)
+
+　第4代　シュ•シン王(紀元前2037~2030頃)は月神ナンナを強く信仰していた。そのため、このジッグラトには月神ナンナを祀る神殿が頂座に置かれている。このジッグラトの見た目が聖書における未完成のバベルの塔の描写に酷似しているため、バベルの塔のオリジナルではないかと推測されている。
+
+
+
+</description>
+		<LookAt>
+			<longitude>46.10338434389435</longitude>
+			<latitude>30.96237794932981</latitude>
+			<altitude>0</altitude>
+			<heading>-0.7065637785981209</heading>
+			<tilt>5.534023685498247</tilt>
+			<range>807.1796017786254</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_uru-01new</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>46.10317599039659,30.96256412736168,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>uruku01.kml</name>
+	<StyleMap id="msn_uruku-01new">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_uruku-01new</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_uruku-01new</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_uruku-01new">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>images/uruku-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_uruku-01new">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>images/uruku-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>ウルク</name>
+		<description><![CDATA[<ウルク第一~第六王朝>
+
+
+
+□時代：紀元前2900年頃~1802年滅亡
+
+
+
+　創始者は太陽神シャマシュの子メスキアッガシェル。彼の子孫には
+「ウルクを建設したもの」エンメルカル、
+「牧夫」(ギルガメシュの父)ルガルバンダ、
+「漁夫」ドゥムジ、
+「ウルクの城壁を建設したもの」ギルガメシュ
+など有名な王たちがいる。都市神は愛と美、豊穣の女神イシュタル。
+
+]]></description>
+		<Camera>
+			<longitude>45.52066753531783</longitude>
+			<latitude>32.04894410566986</latitude>
+			<altitude>389832.7283364881</altitude>
+			<heading>10.74798298881658</heading>
+			<tilt>0.08903913495092976</tilt>
+			<roll>9.674404144583402</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_uruku-01new</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>45.51974297917665,31.42473362525099,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

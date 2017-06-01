@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>babironia.kml</name>
+	<StyleMap id="msn_babiron-01new">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_babiron-01new</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_babiron-01new</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_babiron-01new">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>images/babiron-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_babiron-01new">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>images/babiron-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>バビロニア</name>
+		<description>バビロニア~新バビロニア
+
+□時代：紀元前1894年~紀元前539年滅亡
+
+
+　紀元前1894年頃、小さな都市国家バビロンが興る。紀元前1750年頃アムル人のバビロンの王ハンムラビがメソポタミアの大部分を支配し、この頃バビロニアと呼ばれるようになった。
+　
+　紀元前605年頃アッシュール・ウバリトス2世が死に、ネオアッシリア帝国が滅亡した後、新バビロニアが短い繁栄を遂げ、この頃イシュタル門が作られる。紀元前539年、新バビロニアはアケメネス朝の飲み込まれ、メソポタミア・ネイティブの王朝が途絶える。</description>
+		<Camera>
+			<longitude>45.30765687899069</longitude>
+			<latitude>32.20742206242971</latitude>
+			<altitude>364901.2562208743</altitude>
+			<heading>25.52546989537021</heading>
+			<tilt>0.03602693333568835</tilt>
+			<roll>24.5598296811506</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_babiron-01new</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>44.20923159064301,32.52942131054104,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>rarusa01.kml</name>
+	<StyleMap id="msn_uru-01new">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_uru-01new</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_uru-01new</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_uru-01new">
+		<IconStyle>
+			<scale>1.53636</scale>
+			<Icon>
+				<href>images/uru-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_uru-01new">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>images/uru-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>ラルサ</name>
+		<description>□時代：紀元前2100頃
+
+　ウル第三王朝後、南部で林立した王国のうちの一つ。
+
+</description>
+		<Camera>
+			<longitude>46.25105305407168</longitude>
+			<latitude>31.22151473303117</latitude>
+			<altitude>332876.5841576454</altitude>
+			<heading>7.055378922707411</heading>
+			<tilt>0.1527156795748243</tilt>
+			<roll>5.599429789460805</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_uru-01new</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>45.79594294415111,31.34093133558909,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

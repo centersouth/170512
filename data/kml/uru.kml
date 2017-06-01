@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>uru.kml</name>
+	<Style id="sn_uru-01new">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>images/uru-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_uru-01new">
+		<IconStyle>
+			<scale>1.53636</scale>
+			<Icon>
+				<href>images/uru-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_uru-01new">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_uru-01new</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_uru-01new</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>ウル</name>
+		<description>ウル第一〜第三王朝
+
+□時代：紀元前2600,2500年(?)~紀元前2030年頃
+
+　ウルク第一王朝のあとに王権はウルに移りウル第一王朝が成立した。また、メスアンネパダ王以降はキシュ王とも名乗るようになった。ウルクは当時ウルの覇権下にあったがギルガメシュ王がキシュと戦い勝利している記述がある。ウル第三王朝ではウルの軍事司令官であったウル・ナンムが自立し、神殿の運河の建設が進められた。シュ・シン王時代に建設されたジッグラト(エ・テメン・ニグル)は現在もっとも保存状態の良いジッグラトとして有名である。シュ・シン王の息子イビ・シン王(紀元前2029~2006頃)の時代になり、エラム人が侵攻しウルは陥落した。</description>
+		<LookAt>
+			<longitude>46.38347965177179</longitude>
+			<latitude>30.90385133634459</latitude>
+			<altitude>0</altitude>
+			<heading>-0.5640856113185103</heading>
+			<tilt>0</tilt>
+			<range>95376.54326213362</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_uru-01new</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>46.27361853644015,30.92242278225299,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

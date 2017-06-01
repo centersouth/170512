@@ -43,11 +43,12 @@
 
 	//追加部分
 	<div id="buttonStoryImage">
-		<input type="button" value="相関図"onclick="(function(){var e=document.getElementById(‘buttonStoryImage’);e.style.buttonStoryImage=’block’})()"/>
+		<input type="button" value="相関図"onclick="(function(){var e=document.getElementById(‘print’);e.style.buttonStoryImage=’block’})()"/>
 <div id="print" style="buttonStoryImage:none">
 <img src="data/kml/images/eridu.png"/>
 </div>
 	</div>
+
 
 
 	<div id="buttonHelp" class="general-button" onclick="help();">
@@ -160,9 +161,9 @@
 
 		//視点を登録：　緯度，経度，注視点の高さ，傾き，視点の高さ
 
-		viewPointsArray[0] = new viewPoints("初期視点1",  31.54220266758481, 48.42091909931321, 0, -45, 1000000);
-		viewPointsArray[1] = new viewPoints("初期視点2", 29.54220266758481, 47.42091909931321, 0, -35, 1000000);
-		viewPointsArray[2] = new viewPoints("ウルク上空", 30.5435345491714, 46.82517955255153, 0, -65, 1000000);
+		viewPointsArray[0] = new viewPoints("初期視点1",  31.66720646738047, 42.54248927712338, 0, -65, 1000000);
+		viewPointsArray[1] = new viewPoints("初期視点2", 31.30753996254077, 45.13157597121118, 0, -65, 1000000);
+		viewPointsArray[2] = new viewPoints("初期視点2(ズーム)", 31.30753996254077, 45.13157597121118, 0, -25, 700000);
 		//視点メニューを作成
 
 		var viewPointChangeMenu = document.getElementById('slideMenuViewPoint');
@@ -245,11 +246,21 @@
 
 		var kmlDataArray = [];
 		//KMLデータを登録．kmzでもOK
-		kmlDataArray[0] = new kmlData("避難所", 'data/kml/hinanjo.kml');
-		kmlDataArray[1] = new kmlData("避難場所", 'data/kml/hinanbasyo.kml');
-		kmlDataArray[2] = new kmlData("チグリス川", 'data/kml/tigrisriver.kml');
-		kmlDataArray[3] = new kmlData("イシュタル門", 'data/kml/ishtar.kml');
-		kmlDataArray[4] = new kmlData("エリドゥ", 'data/kml/eridu.kml');
+		kmlDataArray[0] = new kmlData("チグリス川", 'data/kml/tigrisriver.kml');
+		kmlDataArray[1] = new kmlData("イシュタル門", 'data/kml/ishtar.kml');
+		kmlDataArray[2] = new kmlData("エリドゥ", 'data/kml/eridu.kml');
+		kmlDataArray[3] = new kmlData("エリドゥ", 'data/kml/eridu.kml');
+		kmlDataArray[4] = new kmlData("エリドゥ", 'data/kml/eridu02.kml');
+		kmlDataArray[5] = new kmlData("エ・テメン・ニグル", 'data/kml/etemenniguru.kml');
+		kmlDataArray[6] = new kmlData("キシュ", 'data/kml/kishu.kml');
+		kmlDataArray[7] = new kmlData("ニップル", 'data/kml/nippuru.kml');
+		kmlDataArray[8] = new kmlData("ラルサ", 'data/kml/rarusa01.kml');
+		kmlDataArray[9] = new kmlData("ラルサ", 'data/kml/rarusa02.kml');
+		kmlDataArray[10] = new kmlData("レバノン杉の森", 'data/kml/rebanon.kml');
+		kmlDataArray[11] = new kmlData("ウル", 'data/kml/uru.kml');
+		kmlDataArray[12] = new kmlData("ウルク", 'data/kml/uruku01.kml');
+		kmlDataArray[13] = new kmlData("ウルク", 'data/kml/uruku02.kml');
+
 		//時間情報入りのKML
 		//kmlDataArray[2] = new kmlData("タイムスパン", 'data/kml/timeSpans.kml');
 

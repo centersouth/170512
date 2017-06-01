@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>rebanon.kml</name>
+	<Style id="sn_book-01new">
+		<IconStyle>
+			<scale>1.6</scale>
+			<Icon>
+				<href>images/book-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_book-01new">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_book-01new</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_book-01new</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_book-01new">
+		<IconStyle>
+			<scale>1.89091</scale>
+			<Icon>
+				<href>images/book-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>レバノン杉の森(レバノン山脈)</name>
+		<description>□ギルガメシュ叙事詩との関連
+
+　大気神エンリルより派遣された「森の番人」フンババの住む森。フンババは腸を丸めたような顔をした全悪とされる怪人、巨人である。ギルガメシュはエンキドゥと共にフンババを倒すべくこの森へと向かう。</description>
+		<LookAt>
+			<longitude>36.11849261809573</longitude>
+			<latitude>34.29946988460068</latitude>
+			<altitude>0</altitude>
+			<heading>0.05571748219075705</heading>
+			<tilt>8.945425036524307</tilt>
+			<range>9987.90509454432</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_book-01new</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>36.11680387799159,34.29762111954465,25000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

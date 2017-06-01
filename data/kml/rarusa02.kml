@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>rarusa02.kml</name>
+	<Style id="sn_book-01new">
+		<IconStyle>
+			<scale>1.6</scale>
+			<Icon>
+				<href>images/book-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_book-01new">
+		<IconStyle>
+			<scale>1.89091</scale>
+			<Icon>
+				<href>images/book-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_book-01new">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_book-01new</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_book-01new</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>ラルサ</name>
+		<open>1</open>
+		<description>□ギルガメシュ叙事詩との関連
+
+　ギルガメシュ王の守護神であり、女神イシュタルの兄、正義を司る太陽神シャマシュの信仰地。エンキドゥの死後、死を恐れ不老不死を求め彷徨うギルガメシュを悟すシーンなどがある。</description>
+		<Camera>
+			<longitude>46.25105305407168</longitude>
+			<latitude>31.22151473303117</latitude>
+			<altitude>332876.5841576454</altitude>
+			<heading>7.055378922707411</heading>
+			<tilt>0.1527156795748243</tilt>
+			<roll>5.599429789460805</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_book-01new</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>45.79594294415111,31.34093133558909,25000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

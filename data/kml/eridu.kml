@@ -2,59 +2,55 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>eridu.kml</name>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>images/eridu.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
+	<Style id="sn_eridhu-01new">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>images/eridu.png.jpg</href>
+				<href>images/eridhu-01new.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<Style id="sh_eridhu-01new">
+		<IconStyle>
+			<scale>1.53636</scale>
+			<Icon>
+				<href>images/eridhu-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_eridhu-01new">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_eridhu-01new</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_eridhu-01new</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Placemark>
 		<name>エリドゥ</name>
-		<description><![CDATA[<div style="background-color:#000000; color:#FFFFFF; #description min-height:700px;" >
-			<img style="max-width:500px;"src="data/kml/images/eridu02.png">エリドゥとは「遠くに建てられた家」の意。
-				古代メソポタミアの都市、又はその都市を拠点とした国家。ウルから南東方向に約10キロメートルの距離にある。
-			シュメールおよび南部メソポタミアの都市国家郡の南端に位置し、数多くの寺院がある。<br>
-			また、シュメール王名表では人類最初の王権が成立した都市とされている。
-			1,000年以上にわたる神殿の拡張工事の跡が考古学的に発見されていることでも有名である。</div>]]></description>
+		<description>□時代:紀元前約5000年~紀元前2050年頃衰退
+
+ 人類最古の王権が成立した都市とされているが、その内容は極めて伝説的であり、確実に実在したとされる王の記録は紀元前2600年頃のウルク第一王朝ギルガメシュ王からである。ウル第三王朝にシュ・シン王が建設したジッグラトもこのエリドゥの地に建設されている。当時はユーフラテス河口近くのペルシャ湾近くに位置していたが、長年の土砂の堆積により今はペルシャ湾から離れている。
+</description>
 		<LookAt>
-			<longitude>45.99587340963542</longitude>
-			<latitude>30.81690848103716</latitude>
+			<longitude>46.44709717564221</longitude>
+			<latitude>30.96338071178232</latitude>
 			<altitude>0</altitude>
-			<heading>-2.507958190253468e-06</heading>
-			<tilt>28.57079051401964</tilt>
-			<range>46.95014439079092</range>
+			<heading>-0.5313833836022612</heading>
+			<tilt>0</tilt>
+			<range>137715.0622719217</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#msn_eridhu-01new</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>45.99586862333307,30.81695677755713,0</coordinates>
+			<coordinates>46.07783557452917,30.87872601334098,0</coordinates>
 		</Point>
 	</Placemark>
 </Document>

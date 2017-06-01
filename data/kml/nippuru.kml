@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>nippuru.kml</name>
+	<StyleMap id="msn_book-01new">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_book-01new</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_book-01new</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_book-01new">
+		<IconStyle>
+			<scale>1.6</scale>
+			<Icon>
+				<href>images/book-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_book-01new">
+		<IconStyle>
+			<scale>1.89091</scale>
+			<Icon>
+				<href>images/book-01new.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>ニップル</name>
+		<description>□時代：ウル第三王朝後のイシン・ラルサ時代
+　都市神はエンリル。
+
+□ギルガメシュ叙事詩との関連
+　神々の王で空を司る風と嵐の男神、大気神エンリルの信仰地。エンリルはシュメールにおける最高神であり、エンキドゥの個人神。人を嫌う。人間たちの脅威としてレバノン杉の森に怪人フンババを派遣する。</description>
+		<Camera>
+			<longitude>46.41977369778836</longitude>
+			<latitude>31.56893052868017</latitude>
+			<altitude>381942.0158640319</altitude>
+			<heading>-21.48962921576265</heading>
+			<tilt>0.04250152261278572</tilt>
+			<roll>-7.563847046475617</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_book-01new</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>45.01328512371916,32.00197729983576,25000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
