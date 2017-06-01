@@ -16,7 +16,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>images/eridu.png.jpg</href>
+				<href>images/eridu.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -36,9 +36,12 @@
 	</Style>
 	<Placemark>
 		<name>エリドゥ</name>
-		<description><![CDATA[<img style="max-width:500px;"src="data/kml/images/eridu02.png">エリドゥとは「遠くに建てられた家」の意。古代メソポタミアの都市、又はその都市を拠点とした国家。ウルから南東方向に約10キロメートルの距離にある。
+		<description><![CDATA[<div style="background-color:#000000; color:#FFFFFF; #description min-height:700px;" >
+			<img style="max-width:500px;"src="data/kml/images/eridu02.png">エリドゥとは「遠くに建てられた家」の意。
+				古代メソポタミアの都市、又はその都市を拠点とした国家。ウルから南東方向に約10キロメートルの距離にある。
 			シュメールおよび南部メソポタミアの都市国家郡の南端に位置し、数多くの寺院がある。<br>
-			また、シュメール王名表では人類最初の王権が成立した都市とされている。1,000年以上にわたる神殿の拡張工事の跡が考古学的に発見されていることでも有名である。]]></description>
+			また、シュメール王名表では人類最初の王権が成立した都市とされている。
+			1,000年以上にわたる神殿の拡張工事の跡が考古学的に発見されていることでも有名である。</div>]]></description>
 		<LookAt>
 			<longitude>45.99587340963542</longitude>
 			<latitude>30.81690848103716</latitude>

@@ -40,9 +40,12 @@
 	</Style>
 	<Placemark>
 		<name>チグリス川</name>
-		<description><![CDATA[<img style="max-width:500px;" src="data/kml/images/tigris.png">ユーフラテス川と並ぶ文明発祥の地。
+		<description>
+			<![CDATA[<div style="background-color:#000000; color:#FFFFFF; #description min-height:700px;" >
+			<img style="max-width:500px;" src="data/kml/images/tigris.png">ユーフラテス川と並ぶ文明発祥の地。
 トルコからイラクを経てペルシア湾に流れている。
-<a href="http://www.mori.art.museum/blog/2012/05/14-1.php">http://www.mori.art.museum/blog/2012/05/14-1.php</a>]]></description>
+<a href="http://www.mori.art.museum/blog/2012/05/14-1.php">http://www.mori.art.museum/blog/2012/05/14-1.php</a></div>]]>
+</description>
 		<styleUrl>#msn_ylw-pushpin</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>

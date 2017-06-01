@@ -311,3 +311,8 @@ input {
     margin: 0;
     padding: 0;
 }
+
+#description {
+    background-color: #000000;
+    color: #FFFFFF;
+}
