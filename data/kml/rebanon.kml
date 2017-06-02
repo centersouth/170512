@@ -53,7 +53,7 @@
 			<extrude>1</extrude>
 			<altitudeMode>relativeToGround</altitudeMode>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>36.11680387799159,34.29762111954465,25000</coordinates>
+			<coordinates>36.11680387799159,34.29762111954465,30000</coordinates>
 		</Point>
 	</Placemark>
 </Document>

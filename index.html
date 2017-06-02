@@ -41,14 +41,16 @@
 		</div>
 	</div>
 
-	//追加部分
-	<div id="buttonStoryImage">
-		<input type="button" value="相関図"onclick="(function(){var e=document.getElementById(‘print’);e.style.buttonStoryImage=’block’})()"/>
-<div id="print" style="buttonStoryImage:none">
-<img src="data/kml/images/storyimage-02.png"/>
-</div>
-	</div>
+	//相関図ボタンの追加
 
+
+<button id="buttonStoryImage"><img src="data/kml/images/storyimage-02.png"/></button>
+<div id="print" style="display:none">相関図</div>
+<script type="text/javascript">
+	$("#buttonStoryImage").on("click",function(){
+		$("#print").fadeOut("slow");
+	});
+</script>
 
 
 	<div id="buttonHelp" class="general-button" onclick="help();">
