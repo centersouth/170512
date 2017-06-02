@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>basura.kml</name>
+	<Style id="sh_now">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>images/now.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_now">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_now</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_now</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_now">
+		<IconStyle>
+			<Icon>
+				<href>images/now.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>バスラ</name>
+		<description>2,300,125人
+</description>
+		<LookAt>
+			<gx:TimeStamp><when>2016-03-31</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>47.78348501516162</longitude>
+			<latitude>30.50810784540544</latitude>
+			<altitude>0</altitude>
+			<heading>-2.305065340124356e-08</heading>
+			<tilt>0</tilt>
+			<range>27280.38311146096</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_now</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>47.78348501516162,30.50810784540544,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

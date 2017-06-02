@@ -34,10 +34,11 @@
 	</Style>
 	<Placemark>
 		<name>ラルサ</name>
-		<description>□時代：紀元前2100頃
+		<description><![CDATA[<div style="background-color:#000000; color:#FFFFFF; #description min-height:700px;" >
+			□時代：紀元前2100頃<br>
 
 　ウル第三王朝後、南部で林立した王国のうちの一つ。
-
+</div>]]>
 </description>
 		<Camera>
 			<longitude>46.25105305407168</longitude>

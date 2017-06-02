@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>rama-dhi.kml</name>
+	<Style id="sh_now">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>images/now.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_now">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_now</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_now</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_now">
+		<IconStyle>
+			<Icon>
+				<href>images/now.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>ラマーディー</name>
+		<description>700,373人</description>
+		<LookAt>
+			<gx:TimeStamp><when>2016-03-31</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>43.26295976697476</longitude>
+			<latitude>33.42351047760645</latitude>
+			<altitude>0</altitude>
+			<heading>-0.01024906482775283</heading>
+			<tilt>1.375425203265797</tilt>
+			<range>15322.41403046607</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_now</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>43.28158174437016,33.43512482545748,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

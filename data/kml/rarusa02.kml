@@ -35,9 +35,11 @@
 	<Placemark>
 		<name>ラルサ</name>
 		<open>1</open>
-		<description>□ギルガメシュ叙事詩との関連
+		<description><![CDATA[<div style="background-color:#000000; color:#FFFFFF; #description min-height:700px;" >
+			□ギルガメシュ叙事詩との関連<br>
 
-　ギルガメシュ王の守護神であり、女神イシュタルの兄、正義を司る太陽神シャマシュの信仰地。エンキドゥの死後、死を恐れ不老不死を求め彷徨うギルガメシュを悟すシーンなどがある。</description>
+　ギルガメシュ王の守護神であり、女神イシュタルの兄、正義を司る太陽神シャマシュの信仰地。
+エンキドゥの死後、死を恐れ不老不死を求め彷徨うギルガメシュを悟すシーンなどがある。</div>]]></description>
 		<Camera>
 			<longitude>46.25105305407168</longitude>
 			<latitude>31.22151473303117</latitude>

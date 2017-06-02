@@ -34,11 +34,12 @@
 	</Style>
 	<Placemark>
 		<name>ニップル</name>
-		<description>□時代：ウル第三王朝後のイシン・ラルサ時代
-　都市神はエンリル。
+		<description><![CDATA[<div style="background-color:#000000; color:#FFFFFF; #description min-height:700px;" >
+			□時代：ウル第三王朝後のイシン・ラルサ時代<br>
+　都市神はエンリル。<br><br>
 
-□ギルガメシュ叙事詩との関連
-　神々の王で空を司る風と嵐の男神、大気神エンリルの信仰地。エンリルはシュメールにおける最高神であり、エンキドゥの個人神。人を嫌う。人間たちの脅威としてレバノン杉の森に怪人フンババを派遣する。</description>
+□ギルガメシュ叙事詩との関連<br>
+　神々の王で空を司る風と嵐の男神、大気神エンリルの信仰地。エンリルはシュメールにおける最高神であり、エンキドゥの個人神。人を嫌う。人間たちの脅威としてレバノン杉の森に怪人フンババを派遣する。</div>]]></description>
 		<Camera>
 			<longitude>46.41977369778836</longitude>
 			<latitude>31.56893052868017</latitude>

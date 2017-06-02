@@ -34,9 +34,11 @@
 	</Style>
 	<Placemark>
 		<name>レバノン杉の森(レバノン山脈)</name>
-		<description>□ギルガメシュ叙事詩との関連
+		<description><![CDATA[<div style="background-color:#000000; color:#FFFFFF; #description min-height:700px;" >
+			□ギルガメシュ叙事詩との関連<br>
 
-　大気神エンリルより派遣された「森の番人」フンババの住む森。フンババは腸を丸めたような顔をした全悪とされる怪人、巨人である。ギルガメシュはエンキドゥと共にフンババを倒すべくこの森へと向かう。</description>
+　大気神エンリルより派遣された「森の番人」フンババの住む森。フンババは腸を丸めたような顔をした全悪とされる怪人、巨人である。
+ギルガメシュはエンキドゥと共にフンババを倒すべくこの森へと向かう。</div>]]></description>
 		<LookAt>
 			<longitude>36.11849261809573</longitude>
 			<latitude>34.29946988460068</latitude>

@@ -35,9 +35,9 @@
 	<Placemark>
 		<name>エリドゥ</name>
 		<open>1</open>
-		<description>□ギルガメシュ叙事詩との関連
-
-光を司り、深淵の水神エアの信仰地。人間を作った全知全能の男神。ギルガメシュの守護神。エンリルとは対照的で人に友好的。</description>
+		<description><![CDATA[<div style="background-color:#000000; color:#FFFFFF; #description min-height:700px;" >
+			□ギルガメシュ叙事詩との関連<br><br>
+光を司り、深淵の水神エアの信仰地。人間を作った全知全能の男神。ギルガメシュの守護神。エンリルとは対照的で人に友好的。</div>]]></description>
 		<LookAt>
 			<longitude>46.44709717564221</longitude>
 			<latitude>30.96338071178232</latitude>

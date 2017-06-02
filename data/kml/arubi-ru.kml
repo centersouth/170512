@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>arubi-ru.kml</name>
+	<Style id="sh_now">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>images/now.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_now">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_now</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_now</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_now">
+		<IconStyle>
+			<Icon>
+				<href>images/now.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>アルビール</name>
+		<description>1,293,000人</description>
+		<LookAt>
+			<gx:TimeStamp><when>2016-03-31</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>44.00886966819898</longitude>
+			<latitude>36.20629332242124</latitude>
+			<altitude>0</altitude>
+			<heading>-1.89062029985704e-08</heading>
+			<tilt>0</tilt>
+			<range>25442.56261136647</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_now</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>44.00886966819897,36.20629332242123,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

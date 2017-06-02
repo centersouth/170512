@@ -93,7 +93,7 @@ button.cesium-infoBox-close {
 
 #buttonStoryImage {
     position: absolute;
-    top: 200px;
+    top: 100px;
     left: 8px;
     z-index: 10005;
 }
